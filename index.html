@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Lesson-5/HW2/style.css">
+    <title>Position</title>
+</head>
+<style>
+body {
+    height: 300vh;
+    text-align: center;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+}
+div {
+    margin-bottom: 5px;
+    margin-left: 65px;
+    border-radius: 999px;
+}
+
+.parent {
+width: 90%;
+height: 50vh;
+background-color: rgb(159, 156, 149);
+margin-left: 50px;
+}
+p{
+    font-size: 24px;
+    text-decoration: underline;
+    color: white;
+}
+.absolute {
+    width: 90%;
+    height: 15%;
+    background-color: rgb(241, 24, 24);
+}
+.static {
+    width: 90%;
+    height: 15%;
+    background-color: rgb(38, 55, 243);
+}
+.relative {
+    width: 90%;
+    height: 15%;
+    background-color: rgb(244, 247, 42);
+}
+.fixed {
+    width: 90%;
+    height: 15%;
+    background-color: rgb(61, 245, 24);
+}
+.sticky {
+    width: 90%;
+    height: 15%;
+    background-color: rgb(196, 9, 233);
+}
+
+</style>
+<body>
+    <h1> Position Magic </h1>
+
+    <div class="parent"> <p>The Parent Div</p>
+        <div class="absolute" id="absolute"> Static</div>
+        <div class="static" id="static"> Static</div>
+        <div class="relative" id="relative"> Static</div>
+        <div class="fixed" id="fixed"> Static</div>
+        <div class="sticky" id="sticky"> Static</div>
+    </div>
+
+    <button id="btn"> Click Here For The Magic!</button>
+    <button id="btn-rest"> Click To Rest All</button>
+
+
+    <script src="/Lesson-5/HW2/app.js"></script>
+</body>
+
+</html>
