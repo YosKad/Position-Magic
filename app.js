@@ -41,5 +41,5 @@ btn.addEventListener("click", function(){
         absolute.innerHTML = "Absolute with 10px bottom and right";
         fixed.innerHTML = "Fixed with 5px top and right";
         sticky.innerHTML = "Sticky with 10px top";
-    },2500);
+    },1500);
 });
